@@ -39,7 +39,7 @@ GPIO.setup(GPIO_OUT_PIN24,GPIO.OUT)
  
 #定义一个摄像头对象
 def getimage():
-    getimage=os.system('''fswebcam  faceimage.jpg''')
+    getimage=os.system('''fswebcam -r 640*480 faceimage.jpg''')
 
  
 #对图片的格式进行转换
