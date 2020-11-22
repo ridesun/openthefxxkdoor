@@ -4,7 +4,6 @@ import urllib.request
 #import RPi.GPIO as GPIO
 import base64
 import time
-#import cv2
 import os
 import sys
 import re
