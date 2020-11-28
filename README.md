@@ -1,4 +1,4 @@
-# 谁会带钥匙出门？ #
+# 谁会带钥匙出门？ 
 [Gayhub地址][1]
 
 材料清单
@@ -13,18 +13,18 @@ PS3®Eye 快递摔坏版 *1
 
 ----------
 
-##前期准备##
-###安装照相软件###
+##前期准备
+###安装照相软件
 ```
 sudo apt-get install fswebcam
 sudo apt-get install mplayer
 ```
-###下载[百度人脸识别SDK][2]####
+###下载[百度人脸识别SDK][2]
 解压
     cd
     python setup.py install
-##开始##
-####初始化####
+##开始
+####初始化
 ```
 from aip import AipFace
 """ 你的 APPID AK SK """
