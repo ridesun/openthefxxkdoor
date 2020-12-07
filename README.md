@@ -22,8 +22,10 @@ sudo apt-get install mplayer
 ```
 ### 下载[百度人脸识别SDK][2]
 解压
+```
     cd
     python setup.py install
+```
 ## 开始
 #### 初始化
 ```
